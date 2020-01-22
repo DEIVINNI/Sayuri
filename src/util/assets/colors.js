@@ -1,0 +1,13 @@
+module.exports = {
+  PADRÃO: '#63B4FF',
+  VERMELHO: '#FF0000',
+  AZUL: '#0000FF',
+  VERDE: '#00FF00',
+  AMARELO: '#FFF000',
+  PRETO: '#000000',
+  BRANCO: '#FFFFFF',
+  TWITCH: '#6441A5',
+  TWITTER: '#00ACEE',
+  YOUTUBE: '#FF0000',
+  SPOTIFY: '#1DB954',
+};

@@ -1,0 +1,25 @@
+const { prefix } = require('../config');
+
+module.exports = {
+  _id: { type: String },
+  welcome: { type: Boolean, default: false },
+  welcomeChannel: { type: String, default: '' },
+  welcomeCaptcha: { type: Boolean, default: false },
+  leave: { type: Boolean, default: false },
+  leaveChannel: { type: String, default: '' },
+  coins: { type: Boolean, default: true },
+  levels: { type: Boolean, default: true },
+  levelUpChannel: { type: String, default: '' },
+  premiun: { type: Boolean, default: false },
+  contador: { type: Boolean, default: false },
+  contadorChannels: { type: Map, default: [] },
+  contadorMessage: { type: String, default: '{emoji} ┆ Membros: {membros}!' },
+  prefixo: { type: String, default: prefix[0] },
+  logs: { type: Boolean, default: false },
+  logsChannel: { type: String, default: '' },
+  lang: { type: String, default: 'pt-br' },
+  invite: { type: Boolean, default: true },
+  inviteChannel: { type: Map, default: [] },
+  muteRole: { type: String, default: '' },
+  serverManagerRoles: { type: Map, default: [] },
+};
