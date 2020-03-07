@@ -1,0 +1,11 @@
+export const PADRÃO = '#63B4FF';
+export const VERMELHO = '#FF0000';
+export const AZUL = '#0000FF';
+export const VERDE = '#00FF00';
+export const AMARELO = '#FFF000';
+export const PRETO = '#000000';
+export const BRANCO = '#FFFFFF';
+export const TWITCH = '#6441A5';
+export const TWITTER = '#00ACEE';
+export const YOUTUBE = '#FF0000';
+export const SPOTIFY = '#1DB954';
